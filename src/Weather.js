@@ -63,9 +63,8 @@ export default function Weather(props) {
         <WeatherInfo data={weatherData} />
         <WeatherForecast coordinates={weatherData.coordinates} />
         <footer>
-          This project was coded by{"Kristy Melero"} and is open sourced on
-          Github
-          <a href="https://github.com/melerokristy/my-app"></a>
+          This project was coded by {"Kristy Melero"} and is open sourced on
+          <a href="https://github.com/melerokristy/my-app"> GitHub </a>
         </footer>
       </div>
     );
